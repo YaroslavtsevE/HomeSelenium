@@ -9,17 +9,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumWebDriverManagerTests {
 
-//    @Test
-//    public void openDemoQATest() {
-//        WebDriver driver = null;
-//
-//        String browser = System.getProperty("browser");
-//
-//        driver.get("https://demoqa.com/");
-//
-//        driver.quit();
+    @Test
+    public void openDemoQATest() {
+        WebDriver driver = null;
 
-//    }
+        String browser = System.getProperty("browser");
+
+        driver.get("https://demoqa.com/");
+
+        driver.quit();
+
+    }
 
     @Test
     public void simpleTest() {
